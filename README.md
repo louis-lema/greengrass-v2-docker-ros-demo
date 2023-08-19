@@ -64,6 +64,7 @@ Clone this repository and run the build command. It will use the Dockerfile and 
 1. On the *development machine*:
 
   ```
+  sudo apt  install docker-compose -y
   cd ~/greengrass-v2-docker-ros-demo
   DOCKER_BUILDKIT=1 docker-compose build
   ```
