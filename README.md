@@ -29,7 +29,7 @@ On the *development machine* (Your laptop or IDE, ex: AWS RoboMaker IDE):
   - Follow the docker installation steps per [these instructions](https://docs.docker.com/engine/install/ubuntu/)
   - Run these commands to install Docker Compose. For full instructions, [click here](https://docs.docker.com/compose/install/).
    ```bash
-      sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+      sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
       sudo chmod +x /usr/local/bin/docker-compose
    ```
 
