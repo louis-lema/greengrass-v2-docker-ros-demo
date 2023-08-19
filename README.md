@@ -84,7 +84,7 @@ Clone this repository and run the build command. It will use the Dockerfile and 
   ```
   aws ecr get-login-password --region <REGION> | docker login --username AWS --password-stdin <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com
 
-  docker tag ros-foxy-greengrass-demo:latest <ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/ ros-foxy-greengrass-demo:latest
+  docker tag ros-foxy-greengrass-demo:latest <ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/ros-foxy-greengrass-demo:latest
   docker push <ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/ros-foxy-greengrass-demo:latest
   ```
 
