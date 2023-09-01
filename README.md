@@ -33,6 +33,12 @@ On the *development machine* (Your laptop or IDE, ex: AWS RoboMaker IDE):
       sudo chmod +x /usr/local/bin/docker-compose
    ```
 
+## Install on arm emulator on x86 instance
+```
+sudo apt-get update && sudo apt-get install -y --no-install-recommends qemu-user-static binfmt-support
+sudo update-binfmts --enable qemu-arm
+sudo update-binfmts --display qemu-arm
+```
 On the *deployment target* (the robot):
 - **Java Runtime Environment**:
  ```
