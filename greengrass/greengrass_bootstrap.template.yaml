@@ -24,7 +24,7 @@ Resources:
   GreengrassTokenExchangeRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: "GreengrassV2TokenExchangeRole"
+      RoleName: "GreengrassV2TokenExchangeRole-r0s2-demo"
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
