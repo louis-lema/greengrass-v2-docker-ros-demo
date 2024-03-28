@@ -156,7 +156,7 @@ Return to the *development machine* shell.
 
   ```
   export ARTIFACT_DIR=/greengrass/v2/packages/artifacts/com.example.ros2.demo/1.0.0/
-  sudo docker-compose -f $ARTIFACT_DIR/docker-compose.yaml logs --follow
+  sudo docker compose -f $ARTIFACT_DIR/docker-compose.yaml logs --follow
   ```
 
 2. You should see your application running Hello World messages! 
